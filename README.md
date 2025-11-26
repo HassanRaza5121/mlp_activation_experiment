@@ -1,12 +1,17 @@
-# mlp_activation_experiment
-# MLP Activation Functions — Tutorial
+MLP Activation Functions — Tutorial & Experiments
 
-This repo contains experiment exploring the impact of activation functions
-(`identity`, `logistic`, `tanh`, `relu`) on a Multilayer Perceptron (MLP) trained on the sklearn digits dataset.
+This repository contains a comprehensive tutorial and experimental analysis on how different activation functions influence the learning performance of a Multilayer Perceptron (MLP). The study compares four activation functions provided by scikit-learn: identity, logistic, tanh, and relu.
 
-Contents:
-- notebook/MLP_activations_experiment.ipynb — experiment notebook
-- pdf/MLP_activation_tutorial.pdf
-- mlp_activation_experiment/ — saved figures and CSV output 
+Using the scikit-learn Digits dataset, the experiments evaluate each activation function under a fixed architecture and preprocessing pipeline. The objective is to illustrate how activation choices impact model expressiveness, convergence behavior, and classification accuracy.
 
-License: MIT
+Project Overview
+
+This repository includes:
+
+MLP Activation Tutorial (PDF) explaining the theory, dataset, preprocessing, experiment setup, and results.
+
+Jupyter Notebook containing all code, visualizations, and evaluation metrics.
+
+Generated plots and CSV outputs to ensure reproducibility.
+
+This project is designed for students, researchers, and educators interested in understanding activation functions and neural-network optimization.
