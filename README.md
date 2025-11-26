@@ -15,3 +15,17 @@ Jupyter Notebook containing all code, visualizations, and evaluation metrics.
 Generated plots and CSV outputs to ensure reproducibility.
 
 This project is designed for students, researchers, and educators interested in understanding activation functions and neural-network optimization.
+mlp_activation_experiment/
+│
+├── notebook/
+│   └── MLP_activations_experiment.ipynb
+│
+├── pdf/
+│   └── MLP_activation_tutorial.pdf
+│
+├── mlp_activation_experiment/
+│   ├── figures/
+│   └── results.csv
+│
+└── README.md
+
